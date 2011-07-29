@@ -1,0 +1,8 @@
+env = Environment(CCFLAGS="-std=gnu++0x -O2")
+
+adtree_files = Split("""
+    src/adtree.cc
+    src/example.cc
+""")
+
+env.Program("src/example", adtree_files)

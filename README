@@ -1,0 +1,15 @@
+This is two implementations of ADTrees ("All Dimensions" not "Alternating Decision") 
+in python and C++. They are functionally almost the same and based on the original 
+paper found here: http://www.autonlab.org/autonweb/14687
+
+This is mainly an experimental project that will look at other optimizations for
+ADTrees particularly with respect to large data sets.
+
+Some other relevant papers:
+
+A dynamic adaptation of AD-trees for efficient machine learning on large data sets
+http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.32.1219&rep=rep1&type=pdf
+
+ADAPTING ADTREES FOR IMPROVED PERFORMANCE ON
+LARGE DATASETS WITH HIGH ARITY FEATURES
+http://contentdm.lib.byu.edu/ETD/image/etd2487.pdf
